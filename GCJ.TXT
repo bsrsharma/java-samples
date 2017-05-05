@@ -1,0 +1,74 @@
+bash-4.3$ gcj -v -o hash --main=hash hash.java
+Reading specs from /usr/lib/gcc/i586-slackware-linux/5.3.0/specs
+Reading specs from /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../libgcj.spec
+rename spec startfile to startfileorig
+rename spec lib to liborig
+COLLECT_GCC=gcj
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/i586-slackware-linux/5.3.0/lto-wrapper
+Target: i586-slackware-linux
+Configured with: ../gcc-5.3.0/configure --prefix=/usr --libdir=/usr/lib --mandir=/usr/man --infodir=/usr/info --enable-shared --enable-bootstrap --enable-languages=ada,c,c++,fortran,go,java,lto,objc --enable-threads=posix --enable-checking=release --enable-objc-gc --with-system-zlib --with-python-dir=/lib/python2.7/site-packages --enable-libstdcxx-dual-abi --with-default-libstdcxx-abi=gcc4-compatible --disable-libunwind-exceptions --enable-__cxa_atexit --enable-libssp --enable-lto --disable-install-libiberty --with-gnu-ld --verbose --enable-java-home --with-java-home=/usr/lib/jvm/jre --with-jvm-root-dir=/usr/lib/jvm --with-jvm-jar-dir=/usr/lib/jvm/jvm-exports --with-arch-directory=i386 --with-antlr-jar=/root/slackware-current/source/d/gcc/antlr-runtime-3.4.jar --enable-java-awt=gtk --disable-gtktest --with-arch=i586 --target=i586-slackware-linux --build=i586-slackware-linux --host=i586-slackware-linux
+Thread model: posix
+gcc version 5.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fsaw-java-file' '-v' '-o' 'hash' '-fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar' '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/libexec/gcc/i586-slackware-linux/5.3.0/ecj1 hash.java -g1 -fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar -g1 -fsource=1.5 -ftarget=1.5 -fzip-dependency /tmp/ccQI3JFZ.zip -fzip-target /tmp/ccu6JteP.jar
+COLLECT_GCC_OPTIONS='-fsaw-java-file' '-v' '-o' 'hash' '-fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar' '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/libexec/gcc/i586-slackware-linux/5.3.0/jc1 /tmp/ccu6JteP.jar -fsource-filename=hash.java -fhash-synchronization -fno-use-divide-subroutine -fuse-boehm-gc -fnon-call-exceptions -fkeep-inline-functions -quiet -dumpbase hash.java -mtune=pentium -march=i586 -auxbase hash -g1 -version -fsaw-java-file -fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar -faux-classpath /tmp/ccQI3JFZ.zip -o /tmp/ccfldsZ9.s
+GNU Java (GCC) version 5.3.0 (i586-slackware-linux)
+	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.1.
+GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=127378
+GNU Java (GCC) version 5.3.0 (i586-slackware-linux)
+	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.1.
+GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=127378
+Class path starts here:
+    /tmp/ccQI3JFZ.zip/ (zip)
+    ./ (system)
+    /usr/share/java/libgcj-5.3.0.jar/ (system) (zip)
+COLLECT_GCC_OPTIONS='-fsaw-java-file' '-v' '-o' 'hash' '-fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar' '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../../i586-slackware-linux/bin/as -v --32 -o /tmp/ccaZcewT.o /tmp/ccfldsZ9.s
+GNU assembler version 2.26 (i586-slackware-linux) using BFD version version 2.26.20160125
+COLLECT_GCC_OPTIONS='-fsaw-java-file' '-v' '-o' 'hash' '-fbootclasspath=./:/usr/share/java/libgcj-5.3.0.jar' '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/libexec/gcc/i586-slackware-linux/5.3.0/jvgenmain hashmain /tmp/cc12oJeJ.i
+COLLECT_GCC_OPTIONS= '-v' '-o' 'hash'  '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/libexec/gcc/i586-slackware-linux/5.3.0/cc1 /tmp/cc12oJeJ.i -quiet -dumpbase hashmain.c -mtune=pentium -march=i586 -g1 -version -fdollars-in-identifiers -o /tmp/ccfldsZ9.s
+GNU C11 (GCC) version 5.3.0 (i586-slackware-linux)
+	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.1.
+GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=127378
+GNU C11 (GCC) version 5.3.0 (i586-slackware-linux)
+	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+warning: GMP header version 6.1.0 differs from library version 6.1.1.
+GGC heuristics: --param ggc-min-expand=98 --param ggc-min-heapsize=127378
+Compiler executable checksum: c5a3ffed702d1cd048214b2b66d4a98a
+COLLECT_GCC_OPTIONS= '-v' '-o' 'hash'  '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../../i586-slackware-linux/bin/as -v --32 -o /tmp/ccGkJnOL.o /tmp/ccfldsZ9.s
+GNU assembler version 2.26 (i586-slackware-linux) using BFD version version 2.26.20160125
+COMPILER_PATH=/usr/libexec/gcc/i586-slackware-linux/5.3.0/:/usr/libexec/gcc/i586-slackware-linux/5.3.0/:/usr/libexec/gcc/i586-slackware-linux/:/usr/lib/gcc/i586-slackware-linux/5.3.0/:/usr/lib/gcc/i586-slackware-linux/:/usr/lib/gcc/i586-slackware-linux/5.3.0/../../../../i586-slackware-linux/bin/
+LIBRARY_PATH=/usr/lib/gcc/i586-slackware-linux/5.3.0/:/usr/lib/gcc/i586-slackware-linux/5.3.0/../../../../i586-slackware-linux/lib/:/usr/lib/gcc/i586-slackware-linux/5.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS= '-v' '-o' 'hash'  '-g1' '-specs=libgcj.spec' '-shared-libgcc' '-mtune=pentium' '-march=i586'
+ /usr/libexec/gcc/i586-slackware-linux/5.3.0/collect2 -plugin /usr/libexec/gcc/i586-slackware-linux/5.3.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/i586-slackware-linux/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Tzw4S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcj -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lrt -plugin-opt=-pass-through=-lz -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_i386 -dynamic-linker /lib/ld-linux.so.2 -o hash /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../crt1.o /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../crti.o /usr/lib/gcc/i586-slackware-linux/5.3.0/crtbegin.o -L/usr/lib/gcc/i586-slackware-linux/5.3.0 -L/usr/lib/gcc/i586-slackware-linux/5.3.0/../../../../i586-slackware-linux/lib -L/usr/lib/gcc/i586-slackware-linux/5.3.0/../../.. /tmp/ccGkJnOL.o /tmp/ccaZcewT.o -lgcc_s -lgcc -lgcj -lm -lpthread -lrt -lz -ldl -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-slackware-linux/5.3.0/crtend.o /usr/lib/gcc/i586-slackware-linux/5.3.0/../../../crtn.o
+
+bash-4.3$ ./hash
+Hash for 'Hello'
+[-117, 26, -103, 83, -60, 97, 18, -106, -88, 39, -85, -8, -60, 120, 4, -41]
+Using makeNiceStr(): M43VEBUYJHM2E2EZ
+Delaware Pennsylvania California Texas...
+KS48J9G8KXAVQL39
+Ecuador Japan Bhutan Paraguay
+HG8GQDJCKK2EVR4A
+Russia Romania
+92527QVRSQ6JC37F
+Turkmenistan Denmark
+8RVAMZL6DQ3HZJFB
+Tajikistan Jamaica
+ZK4MPB6VK46LPTFM
+Panama Djibouti Nepal
+LKQUNFQE389MP8EZ
+Bolivia Srilanka Singapore
+CXFNK2DYVRKGXSWR
+
+wrote arrs.dat
+
+bash-4.3$ 
+
